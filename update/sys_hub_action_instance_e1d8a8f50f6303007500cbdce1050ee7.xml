@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="TN46 Task Approval">1f56a8750f6303007500cbdce1050ece</flow>
+        <order>3.2</order>
+        <parent_ui_id>31c741ef-03f7-453f-8e40-3417da4ac877</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-09 15:21:23</sys_created_on>
+        <sys_id>e1d8a8f50f6303007500cbdce1050ee7</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="TN46" source="x_66238_tn46">660564350f6303007500cbdce1050e42</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TN46">660564350f6303007500cbdce1050e42</sys_scope>
+        <sys_update_name>sys_hub_action_instance_e1d8a8f50f6303007500cbdce1050ee7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-09 15:21:24</sys_updated_on>
+        <ui_id>432f63c9-82d3-4b39-b484-b10687d5b520</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e1d8a8f50f6303007500cbdce1050ee7"/>
+    <sys_element_mapping action="delete_multiple" query="id=e1d8a8f50f6303007500cbdce1050ee7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>e1d8a8f50f6303007500cbdce1050ee7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-09 15:21:23</sys_created_on>
+        <sys_id>65d8a8f50f6303007500cbdce1050ee9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-09 15:21:23</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0e0ae8c2531003003bf1d9109ec587c8</table>
+        <value>{{Updated_1.current.number}} + ' : NOT approved - State=' + {{Updated_1.current.state}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>e1d8a8f50f6303007500cbdce1050ee7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-09 15:21:24</sys_created_on>
+        <sys_id>e9d8e8f50f6303007500cbdce1050e0b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-09 15:21:24</sys_updated_on>
+        <table>var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4</table>
+        <value>{{Updated_1.current.number}} + ' : NOT approved - State=' + {{Updated_1.current.state}}</value>
+    </sys_element_mapping>
+</record_update>

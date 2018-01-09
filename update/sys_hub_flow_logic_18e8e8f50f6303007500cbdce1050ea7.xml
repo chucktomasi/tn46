@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow_logic">
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">add8a8f50f6303007500cbdce1050eea</block>
+        <connected_to>451afc0d-dc8c-4cf8-b0a6-abd148af3527</connected_to>
+        <display_text/>
+        <flow display_value="TN46 Task Approval">84e8ecb50f6303007500cbdce1050e93</flow>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-09 15:21:35</sys_created_on>
+        <sys_id>18e8e8f50f6303007500cbdce1050ea7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="TN46" source="x_66238_tn46">660564350f6303007500cbdce1050e42</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TN46">660564350f6303007500cbdce1050e42</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_18e8e8f50f6303007500cbdce1050ea7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-09 15:21:35</sys_updated_on>
+        <ui_id>31c741ef-03f7-453f-8e40-3417da4ac877</ui_id>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=18e8e8f50f6303007500cbdce1050ea7"/>
+</record_update>
